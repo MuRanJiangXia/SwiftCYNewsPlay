@@ -1,0 +1,429 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		873172B620463EFA00D0E529 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 873172B520463EFA00D0E529 /* AppDelegate.swift */; };
+		873172B820463EFA00D0E529 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 873172B720463EFA00D0E529 /* ViewController.swift */; };
+		873172BB20463EFA00D0E529 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873172B920463EFA00D0E529 /* Main.storyboard */; };
+		873172BD20463EFA00D0E529 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 873172BC20463EFA00D0E529 /* Assets.xcassets */; };
+		873172C020463EFA00D0E529 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873172BE20463EFA00D0E529 /* LaunchScreen.storyboard */; };
+		873172C820463F3000D0E529 /* CYShowViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 873172C720463F3000D0E529 /* CYShowViewController.swift */; };
+		873172CD204655E500D0E529 /* UIView+Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = 873172CC204655E500D0E529 /* UIView+Utils.m */; };
+		873172EA20466FB100D0E529 /* MASCompositeConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 873172D120466FB100D0E529 /* MASCompositeConstraint.m */; };
+		873172EB20466FB100D0E529 /* MASConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 873172D420466FB100D0E529 /* MASConstraint.m */; };
+		873172EC20466FB100D0E529 /* MASConstraintMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = 873172D620466FB100D0E529 /* MASConstraintMaker.m */; };
+		873172ED20466FB100D0E529 /* MASLayoutConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 873172D820466FB100D0E529 /* MASLayoutConstraint.m */; };
+		873172EE20466FB100D0E529 /* MASViewAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = 873172DC20466FB100D0E529 /* MASViewAttribute.m */; };
+		873172EF20466FB100D0E529 /* MASViewConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 873172DE20466FB100D0E529 /* MASViewConstraint.m */; };
+		873172F020466FB100D0E529 /* NSArray+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 873172E020466FB100D0E529 /* NSArray+MASAdditions.m */; };
+		873172F120466FB100D0E529 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 873172E320466FB100D0E529 /* NSLayoutConstraint+MASDebugAdditions.m */; };
+		873172F220466FB100D0E529 /* View+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 873172E520466FB100D0E529 /* View+MASAdditions.m */; };
+		873172F320466FB100D0E529 /* ViewController+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 873172E820466FB100D0E529 /* ViewController+MASAdditions.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		873172B220463EFA00D0E529 /* SwiftCYNewsPlay.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftCYNewsPlay.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		873172B520463EFA00D0E529 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		873172B720463EFA00D0E529 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		873172BA20463EFA00D0E529 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		873172BC20463EFA00D0E529 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		873172BF20463EFA00D0E529 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		873172C120463EFA00D0E529 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		873172C720463F3000D0E529 /* CYShowViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CYShowViewController.swift; sourceTree = "<group>"; };
+		873172CA204655E500D0E529 /* SwiftCYNewsPlay-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SwiftCYNewsPlay-Bridging-Header.h"; sourceTree = "<group>"; };
+		873172CB204655E500D0E529 /* UIView+Utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Utils.h"; sourceTree = "<group>"; };
+		873172CC204655E500D0E529 /* UIView+Utils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Utils.m"; sourceTree = "<group>"; };
+		873172D020466FB100D0E529 /* MASCompositeConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASCompositeConstraint.h; sourceTree = "<group>"; };
+		873172D120466FB100D0E529 /* MASCompositeConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASCompositeConstraint.m; sourceTree = "<group>"; };
+		873172D220466FB100D0E529 /* MASConstraint+Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MASConstraint+Private.h"; sourceTree = "<group>"; };
+		873172D320466FB100D0E529 /* MASConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASConstraint.h; sourceTree = "<group>"; };
+		873172D420466FB100D0E529 /* MASConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASConstraint.m; sourceTree = "<group>"; };
+		873172D520466FB100D0E529 /* MASConstraintMaker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASConstraintMaker.h; sourceTree = "<group>"; };
+		873172D620466FB100D0E529 /* MASConstraintMaker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASConstraintMaker.m; sourceTree = "<group>"; };
+		873172D720466FB100D0E529 /* MASLayoutConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASLayoutConstraint.h; sourceTree = "<group>"; };
+		873172D820466FB100D0E529 /* MASLayoutConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASLayoutConstraint.m; sourceTree = "<group>"; };
+		873172D920466FB100D0E529 /* Masonry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Masonry.h; sourceTree = "<group>"; };
+		873172DA20466FB100D0E529 /* MASUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASUtilities.h; sourceTree = "<group>"; };
+		873172DB20466FB100D0E529 /* MASViewAttribute.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASViewAttribute.h; sourceTree = "<group>"; };
+		873172DC20466FB100D0E529 /* MASViewAttribute.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASViewAttribute.m; sourceTree = "<group>"; };
+		873172DD20466FB100D0E529 /* MASViewConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASViewConstraint.h; sourceTree = "<group>"; };
+		873172DE20466FB100D0E529 /* MASViewConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASViewConstraint.m; sourceTree = "<group>"; };
+		873172DF20466FB100D0E529 /* NSArray+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+MASAdditions.h"; sourceTree = "<group>"; };
+		873172E020466FB100D0E529 /* NSArray+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+MASAdditions.m"; sourceTree = "<group>"; };
+		873172E120466FB100D0E529 /* NSArray+MASShorthandAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+MASShorthandAdditions.h"; sourceTree = "<group>"; };
+		873172E220466FB100D0E529 /* NSLayoutConstraint+MASDebugAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSLayoutConstraint+MASDebugAdditions.h"; sourceTree = "<group>"; };
+		873172E320466FB100D0E529 /* NSLayoutConstraint+MASDebugAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSLayoutConstraint+MASDebugAdditions.m"; sourceTree = "<group>"; };
+		873172E420466FB100D0E529 /* View+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "View+MASAdditions.h"; sourceTree = "<group>"; };
+		873172E520466FB100D0E529 /* View+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "View+MASAdditions.m"; sourceTree = "<group>"; };
+		873172E620466FB100D0E529 /* View+MASShorthandAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "View+MASShorthandAdditions.h"; sourceTree = "<group>"; };
+		873172E720466FB100D0E529 /* ViewController+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ViewController+MASAdditions.h"; sourceTree = "<group>"; };
+		873172E820466FB100D0E529 /* ViewController+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ViewController+MASAdditions.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		873172AF20463EFA00D0E529 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		873172A920463EFA00D0E529 = {
+			isa = PBXGroup;
+			children = (
+				873172B420463EFA00D0E529 /* SwiftCYNewsPlay */,
+				873172B320463EFA00D0E529 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		873172B320463EFA00D0E529 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				873172B220463EFA00D0E529 /* SwiftCYNewsPlay.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		873172B420463EFA00D0E529 /* SwiftCYNewsPlay */ = {
+			isa = PBXGroup;
+			children = (
+				873172C9204655B400D0E529 /* Tools */,
+				873172B520463EFA00D0E529 /* AppDelegate.swift */,
+				873172B720463EFA00D0E529 /* ViewController.swift */,
+				873172C720463F3000D0E529 /* CYShowViewController.swift */,
+				873172B920463EFA00D0E529 /* Main.storyboard */,
+				873172BC20463EFA00D0E529 /* Assets.xcassets */,
+				873172BE20463EFA00D0E529 /* LaunchScreen.storyboard */,
+				873172C120463EFA00D0E529 /* Info.plist */,
+			);
+			path = SwiftCYNewsPlay;
+			sourceTree = "<group>";
+		};
+		873172C9204655B400D0E529 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				873172CE20466FB100D0E529 /* Masonry */,
+				873172CB204655E500D0E529 /* UIView+Utils.h */,
+				873172CC204655E500D0E529 /* UIView+Utils.m */,
+				873172CA204655E500D0E529 /* SwiftCYNewsPlay-Bridging-Header.h */,
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		873172CE20466FB100D0E529 /* Masonry */ = {
+			isa = PBXGroup;
+			children = (
+				873172D020466FB100D0E529 /* MASCompositeConstraint.h */,
+				873172D120466FB100D0E529 /* MASCompositeConstraint.m */,
+				873172D220466FB100D0E529 /* MASConstraint+Private.h */,
+				873172D320466FB100D0E529 /* MASConstraint.h */,
+				873172D420466FB100D0E529 /* MASConstraint.m */,
+				873172D520466FB100D0E529 /* MASConstraintMaker.h */,
+				873172D620466FB100D0E529 /* MASConstraintMaker.m */,
+				873172D720466FB100D0E529 /* MASLayoutConstraint.h */,
+				873172D820466FB100D0E529 /* MASLayoutConstraint.m */,
+				873172D920466FB100D0E529 /* Masonry.h */,
+				873172DA20466FB100D0E529 /* MASUtilities.h */,
+				873172DB20466FB100D0E529 /* MASViewAttribute.h */,
+				873172DC20466FB100D0E529 /* MASViewAttribute.m */,
+				873172DD20466FB100D0E529 /* MASViewConstraint.h */,
+				873172DE20466FB100D0E529 /* MASViewConstraint.m */,
+				873172DF20466FB100D0E529 /* NSArray+MASAdditions.h */,
+				873172E020466FB100D0E529 /* NSArray+MASAdditions.m */,
+				873172E120466FB100D0E529 /* NSArray+MASShorthandAdditions.h */,
+				873172E220466FB100D0E529 /* NSLayoutConstraint+MASDebugAdditions.h */,
+				873172E320466FB100D0E529 /* NSLayoutConstraint+MASDebugAdditions.m */,
+				873172E420466FB100D0E529 /* View+MASAdditions.h */,
+				873172E520466FB100D0E529 /* View+MASAdditions.m */,
+				873172E620466FB100D0E529 /* View+MASShorthandAdditions.h */,
+				873172E720466FB100D0E529 /* ViewController+MASAdditions.h */,
+				873172E820466FB100D0E529 /* ViewController+MASAdditions.m */,
+			);
+			path = Masonry;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		873172B120463EFA00D0E529 /* SwiftCYNewsPlay */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 873172C420463EFA00D0E529 /* Build configuration list for PBXNativeTarget "SwiftCYNewsPlay" */;
+			buildPhases = (
+				873172AE20463EFA00D0E529 /* Sources */,
+				873172AF20463EFA00D0E529 /* Frameworks */,
+				873172B020463EFA00D0E529 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwiftCYNewsPlay;
+			productName = SwiftCYNewsPlay;
+			productReference = 873172B220463EFA00D0E529 /* SwiftCYNewsPlay.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		873172AA20463EFA00D0E529 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = cyan;
+				TargetAttributes = {
+					873172B120463EFA00D0E529 = {
+						CreatedOnToolsVersion = 9.2;
+						LastSwiftMigration = 0920;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 873172AD20463EFA00D0E529 /* Build configuration list for PBXProject "SwiftCYNewsPlay" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 873172A920463EFA00D0E529;
+			productRefGroup = 873172B320463EFA00D0E529 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				873172B120463EFA00D0E529 /* SwiftCYNewsPlay */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		873172B020463EFA00D0E529 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				873172C020463EFA00D0E529 /* LaunchScreen.storyboard in Resources */,
+				873172BD20463EFA00D0E529 /* Assets.xcassets in Resources */,
+				873172BB20463EFA00D0E529 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		873172AE20463EFA00D0E529 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				873172EC20466FB100D0E529 /* MASConstraintMaker.m in Sources */,
+				873172B820463EFA00D0E529 /* ViewController.swift in Sources */,
+				873172C820463F3000D0E529 /* CYShowViewController.swift in Sources */,
+				873172EB20466FB100D0E529 /* MASConstraint.m in Sources */,
+				873172F320466FB100D0E529 /* ViewController+MASAdditions.m in Sources */,
+				873172ED20466FB100D0E529 /* MASLayoutConstraint.m in Sources */,
+				873172F020466FB100D0E529 /* NSArray+MASAdditions.m in Sources */,
+				873172EF20466FB100D0E529 /* MASViewConstraint.m in Sources */,
+				873172EE20466FB100D0E529 /* MASViewAttribute.m in Sources */,
+				873172F220466FB100D0E529 /* View+MASAdditions.m in Sources */,
+				873172CD204655E500D0E529 /* UIView+Utils.m in Sources */,
+				873172B620463EFA00D0E529 /* AppDelegate.swift in Sources */,
+				873172EA20466FB100D0E529 /* MASCompositeConstraint.m in Sources */,
+				873172F120466FB100D0E529 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		873172B920463EFA00D0E529 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				873172BA20463EFA00D0E529 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		873172BE20463EFA00D0E529 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				873172BF20463EFA00D0E529 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		873172C220463EFA00D0E529 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		873172C320463EFA00D0E529 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		873172C520463EFA00D0E529 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SwiftCYNewsPlay/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = www.cyan.com.SwiftCYNewsPlay;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "SwiftCYNewsPlay/Tools/SwiftCYNewsPlay-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		873172C620463EFA00D0E529 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SwiftCYNewsPlay/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = www.cyan.com.SwiftCYNewsPlay;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "SwiftCYNewsPlay/Tools/SwiftCYNewsPlay-Bridging-Header.h";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		873172AD20463EFA00D0E529 /* Build configuration list for PBXProject "SwiftCYNewsPlay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				873172C220463EFA00D0E529 /* Debug */,
+				873172C320463EFA00D0E529 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		873172C420463EFA00D0E529 /* Build configuration list for PBXNativeTarget "SwiftCYNewsPlay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				873172C520463EFA00D0E529 /* Debug */,
+				873172C620463EFA00D0E529 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 873172AA20463EFA00D0E529 /* Project object */;
+}
